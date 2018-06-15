@@ -1,0 +1,30 @@
+<view wx:if="{{hashist}}" class="rowviewcenter">
+  <text class="txtDF" space="nbsp">总分: {{t}}</text>
+</view>
+<view wx:if="{{hashist}}" class="rowview">
+  <text class="txtDesc" space="nbsp">根据原作者提出该量表的筛查界限, 筛查分57分，诊断分67分，即总分57分为筛查分、67分为诊断分。</text>
+</view>
+<view wx:for="{{tm}}" wx:for-index="idx" class="tmArea_{{idx%2}}" wx:key="*this">
+  <view class="tmContent">
+    <text>{{idx+1}}. {{item.txt}}:</text>
+  </view>
+  <view class="tmSelect">
+    <radio-group id="checkbox_{{idx+1}}" bindchange="onSelectChkBox">
+      <block wx:if="{{hashist}}">
+        <radio id="checkbox_{{idx+1}}_y" class="chkBox" value="{{item.point}}" disabled='{{true}}' checked="{{item.sel == true}}"/>
+        <label for="checkbox_{{idx+1}}_y"><text space="nbsp">是    </text></label>
+        <radio id="checkbox_{{idx+1}}_n" class="chkBox" value="0" disabled='{{true}}' checked="{{item.sel == false}}"/>
+        <label for="checkbox_{{idx+1}}_n"><text space="nbsp" for="checkbox_{{idx+1}}_n">否    </text></label>
+      </block>
+      <block wx:else>
+        <radio id="checkbox_{{idx+1}}_y" class="chkBox" value="{{item.point}}"/>
+        <label for="checkbox_{{idx+1}}_y"><text space="nbsp">是    </text></label>
+        <radio id="checkbox_{{idx+1}}_n" class="chkBox" value="0"/>
+        <label for="checkbox_{{idx+1}}_n"><text space="nbsp" for="checkbox_{{idx+1}}_n">否    </text></label>   
+      </block>
+    </radio-group>
+  </view>
+</view>
+<view wx:if="{{hashist == false}}" class="btnEnd">
+<button type="primary" bindtap="onGetResult">结束测试</button>
+</view>

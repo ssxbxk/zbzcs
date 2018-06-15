@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/zbzcs/zbzcs",
+    "pages/zbzcsresult/zbzcsresult",
+    "pages/zbzcshistory/zbzcshistory"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "儿童自闭症测量",
+    "navigationBarTextStyle": "black"
+  }
+}

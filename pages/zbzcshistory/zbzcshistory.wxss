@@ -1,0 +1,20 @@
+.main{
+  margin:20px;
+}
+
+.rowdt_0, .rowdt_1 {
+  margin-top:20px;
+  margin-left:20px;
+  color:#666666;
+  height: 40px;
+  padding-top:15px;
+  padding-left:5px;
+}
+
+.rowdt_0{
+  background-color: #d9ffff;
+}
+
+.rowdt_1{
+  background-color: #eeeeee;
+}

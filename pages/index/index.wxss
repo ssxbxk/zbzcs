@@ -1,0 +1,39 @@
+/**index.wxss**/
+.contentview{
+  margin: 20px;
+}
+
+.infotext{
+  color:#666666;
+}
+
+.btnStart{
+  margin-top:50px;
+}
+
+.btnHistory{
+  margin-top:5px;
+}
+
+.txtImp, .txtContact{
+  font-weight: bold;
+  color:red;
+  margin-top:20px;
+  text-align: center;
+  font-size: 12pt;
+}
+
+.txtContact{
+  font-weight:normal;
+  color:#666666;
+}
+
+.dsImage{
+  width:100px;
+  height:100px;
+}
+
+.centerview{
+  margin-top: 10px;
+  text-align: center;
+}

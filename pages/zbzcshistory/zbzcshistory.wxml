@@ -1,0 +1,9 @@
+<view class="main">
+  <text>请选择一个日期:</text>
+  <scroll-view scroll-y style="height: 500px;" >
+    <view class="rowdt_{{idx%2}}"  wx:for="{{hist}}" data-val="{{itm.v}}" wx:key="k" wx:for-index="idx" wx:for-item="itm" bindtap="onSelectDT">
+      <text>{{itm.k}}</text>
+    </view> 
+  </scroll-view>
+  <button type="warn" bindtap="onClear">清除历史记录</button>
+</view>

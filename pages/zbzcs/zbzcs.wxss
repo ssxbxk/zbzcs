@@ -1,0 +1,47 @@
+/* pages/zbzcs/zbzcs.wxss */
+.tmArea_0, .tmArea_1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:#666666;
+}
+
+.tmArea_0{
+  background-color: #eeeeee;
+}
+
+.tmArea_1{
+  background-color: white;
+}
+
+.tmSelect{
+  margin-top:5px;
+  margin-right:20px;
+  text-align: right;
+}
+
+.chkBox{
+  margin-left:20px;
+}
+
+.tmContent{
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.btnEnd{
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:20px;
+  margin-right:20px;
+  height: 60px;
+}
+
+.txtDF{
+  color:red;
+  font-size: 20pt;
+}
+
+.rowviewcenter, .rowview{
+  margin: 20px;
+  text-align: center;
+}

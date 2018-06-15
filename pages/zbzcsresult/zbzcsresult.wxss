@@ -1,0 +1,21 @@
+/* pages/zbzcsresult.wxss */
+.txtDF{
+  color:red;
+  font-size: 20pt;
+}
+
+.txtDesc{
+  color:#666666;
+}
+
+.rowviewcenter, .rowview{
+  margin: 20px;
+  text-align: center;
+}
+
+.btnEnd{
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:20px;
+  margin-right:20px;
+}

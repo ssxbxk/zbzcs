@@ -1,0 +1,8 @@
+<!--<text>{{ret}}</text>-->
+<view class="rowviewcenter">
+  <text class="txtDF" space="nbsp">总分: {{ret}}</text>
+</view>
+<view class="rowview">
+  <text class="txtDesc" space="nbsp">根据原作者提出该量表的筛查界限, 筛查分57分，诊断分67分，即总分57分为筛查分、67分为诊断分。</text>
+</view>
+<button class="btnEnd" type="primary" bindtap="onGetMain">返回主页</button>
