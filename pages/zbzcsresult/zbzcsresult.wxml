@@ -6,3 +6,4 @@
   <text class="txtDesc" space="nbsp">根据原作者提出该量表的筛查界限, 筛查分57分，诊断分67分，即总分57分为筛查分、67分为诊断分。</text>
 </view>
 <button class="btnEnd" type="primary" bindtap="onGetMain">返回主页</button>
+<ad unit-id="adunit-70e7e53e1774812e" style="margin-top:10px;"></ad>

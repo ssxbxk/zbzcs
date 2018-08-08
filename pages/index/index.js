@@ -7,7 +7,7 @@ Page({
     var obj = this;
     wx.getStorageInfo({
       success: function (res) {
-        obj.setData({ enableHist: res.keys.length <= 1 });
+        obj.setData({ disableHist: res.keys.length <= 1 });
       },
       fail: function (res) {
         wx.showToast({

@@ -27,4 +27,5 @@
 </view>
 <view wx:if="{{hashist == false}}" class="btnEnd">
 <button type="primary" bindtap="onGetResult">结束测试</button>
+<ad unit-id="adunit-b8f3a8ec144abf9a" style="margin-top:10px;"></ad>
 </view>

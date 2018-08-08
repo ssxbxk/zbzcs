@@ -104,7 +104,7 @@ Page({
       })
       return;
     }
-
+    
     var total = 0;
     for (var i in selectedOpt){
       total += parseInt(selectedOpt[i], 10);

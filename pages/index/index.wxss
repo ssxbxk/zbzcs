@@ -8,7 +8,7 @@
 }
 
 .btnStart{
-  margin-top:50px;
+  margin-top:30px;
 }
 
 .btnHistory{
@@ -29,8 +29,8 @@
 }
 
 .dsImage{
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
 }
 
 .centerview{

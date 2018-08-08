@@ -6,4 +6,5 @@
     </view> 
   </scroll-view>
   <button type="warn" bindtap="onClear">清除历史记录</button>
+  <ad unit-id="adunit-c286c3dd38c7371c" style="margin-top:10px;"></ad>
 </view>

@@ -7,10 +7,11 @@
   </view>
   <view class="txtImp">请客观的回答问题, 尽量做出真实的结果!</view>
   <button class="btnStart" type="primary" bindtap="onStart">开始测试</button>
-  <button class="btnHistory" type="primary" bindtap="onHistory" disabled="{{enableHist}}">查看历史记录</button>
+  <button class="btnHistory" type="primary" bindtap="onHistory" disabled="{{disableHist}}">查看历史记录</button>
   <view class="txtContact">点击保存二维码, 扫一扫, 支持一下:</view>
   <view class="centerview">
     <image class="dsImage" mode="scaleToFill" src="../../images/ds.png" bindtap="onClickImage"></image>
   </view>
+  <ad unit-id="adunit-2b0ac28bf313b79f"></ad>
 </view>
 
