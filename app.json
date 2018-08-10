@@ -1,9 +1,12 @@
 {
   "pages": [
+    "pages/mainpage/mainpage",
     "pages/index/index",
     "pages/zbzcs/zbzcs",
     "pages/zbzcsresult/zbzcsresult",
-    "pages/zbzcshistory/zbzcshistory"
+    "pages/zbzcshistory/zbzcshistory",
+    "pages/cabs/cabsmain",
+    "pages/cars/carsmain"
   ],
   "window": {
     "backgroundTextStyle": "light",

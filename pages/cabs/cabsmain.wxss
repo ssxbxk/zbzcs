@@ -1,0 +1,40 @@
+/* pages/cabs/cabsmain.wxss */
+.contentview{
+  margin: 20px;
+}
+
+.infotext{
+  color:#666666;
+  font-size: 13px;
+}
+
+.txtImp, .txtresult{
+  font-weight: bold;
+  color:red;
+  margin-top:20px;
+  text-align: center;
+  font-size: 12pt;
+}
+
+.txtresult{
+  text-align:left;
+}
+
+.testItem{
+  margin-top: 20px;
+  display: flex;
+  flex-direction:column;
+  vertical-align: middle;
+}
+
+.itemTxt{
+  margin: 10px;
+}
+
+.chkBox{
+  margin-left:20px;
+}
+.mainbtn{
+  margin: 10px;
+  margin-top: 20px;
+}

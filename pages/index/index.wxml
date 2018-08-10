@@ -3,15 +3,11 @@
   <view>
     <text class="infotext" space="emsp">  儿童自闭症测试量表，又称自闭症行为量表（ABC量表），是用于医生检测儿童是否患有自闭症的一个简单的方法，只能做为一个参考诊断依据，并不能单一地做为判定诊断结果的依据。
 
-  自闭症行为量表是一具有诊断价值的量表，由Krug于1978年所编制。</text>
+  孤独症行为量表（ABC）：共57个项目，每个项目4级评分，总分≥31分提示存在可疑孤独症样症状，总分≥67分提示存在孤独症样症状，适用于8个月～28岁的人群。</text>
   </view>
   <view class="txtImp">请客观的回答问题, 尽量做出真实的结果!</view>
   <button class="btnStart" type="primary" bindtap="onStart">开始测试</button>
   <button class="btnHistory" type="primary" bindtap="onHistory" disabled="{{disableHist}}">查看历史记录</button>
-  <view class="txtContact">点击保存二维码, 扫一扫, 支持一下:</view>
-  <view class="centerview">
-    <image class="dsImage" mode="scaleToFill" src="../../images/ds.png" bindtap="onClickImage"></image>
-  </view>
-  <ad unit-id="adunit-2b0ac28bf313b79f"></ad>
+  <ad unit-id="adunit-2b0ac28bf313b79f" style="margin-top:10px"></ad>
 </view>
 

@@ -2,8 +2,6 @@
 //获取应用实例
 var utils = require("../../utils/util.js")
 
-const app = getApp()
-
 Page({
   onShow: function () {
     var obj = this;

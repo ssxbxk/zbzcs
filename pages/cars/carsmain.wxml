@@ -1,0 +1,38 @@
+<!--pages/cars/carcmain.wxml-->
+<view class="contentview">
+  <view>
+    <text class="infotext" space="emsp">儿童孤独症评定量表(CARS)：该量表编制于20世纪80年代初，从15个主要方面对孤独症儿童进行评估，是主要适用于医师或儿童心理测验专职人员的他评量表。应用时最好能结合儿童孤独症家长评定量表共同使用。
+
+总分 小于30 为非孤独症
+总分 30～36 为轻至中度孤独症
+总分 ≥36 为重度孤独症
+
+该量表适用于2 岁以上的人群。</text>
+  </view>
+  <view class="txtImp">请客观的回答问题, 尽量做出真实的结果!</view>
+  <scroll-view>
+    <block wx:for="{{qitems}}" wx:key="*this">
+      <template is="listItem" data="{{...item}}"/>
+    </block>
+  </scroll-view>
+  <button class="mainbtn" type="primary" bindtap="onGetResult">评分</button>
+  <view class="txtresult" wx:if="{{getresult == true}}">{{theresult}}</view>
+  <view class="txtresult" wx:if="{{getresult == true}}" space="emsp">总分 小于30 分为非孤独症, 总分 30～36 分为轻至中度孤独症, 总分 ≥36 分为重度孤独症.
+
+  重度孤儿症危险要求总分需要大于36分并且5项以上达3分或大于3分时才可以判断</view>
+  <ad unit-id="adunit-2b0ac28bf313b79f" style="margin-top:10px"></ad>
+</view>
+
+<template name="listItem">
+  <view class="testItem">
+    <text class="itemTxt">{{idx+1}}. {{title}}</text>
+    <radio-group id="checkbox_{{idx+1}}" bindchange="onSelectChkBox">
+      <block wx:for="{{subitems}}" wx:key="*this">
+        <view class="testItem">
+          <radio id="{{idx+1}}_{{item.subidx+1}}" class="chkBox" value="{{item.itemvalue}}"/>
+          <label for="{{idx+1}}_{{item.subidx+1}}"><text space="nbsp">{{item.desc}}</text></label>
+        </view>
+      </block>
+    </radio-group>
+  </view>
+</template>

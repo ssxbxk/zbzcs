@@ -1,0 +1,43 @@
+<!--pages/cabs/cabsmain.wxml-->
+<view class="contentview">
+  <view>
+    <text class="infotext" space="emsp">克氏孤独症行为量表（CABS）：共14个项目，每个项目采用2级或3级评分。2级评分总分≥7分或3级评分总分≥14分，提示存在可疑孤独症问题。
+
+该量表针对2～15岁的人群，适用于儿保门诊、幼儿园、学校等对儿童进行快速筛查。
+
+克氏行为量表（孩子最近1个月的情况）
+"偶尔": 此行为有时出现，但频率不高（每周几次）。 
+"经常": 此行为几乎每天出现，引人注目。 
+
+用表说明：
+(1) 用自闭症儿童的筛查。
+(2) 由14 项组成，行为出现频率分"从不"、"偶尔"和"经常"三级。分别评分为"0"、"1"、"2"分。
+(3) 累分≥ 14 分且"从不"≦3 项，"经常"≥6 项者，可能为自闭症，分数越高，可能性越大。
+(4) 该表灵敏度高，但特异度不高（即易发现，但又不准确）。</text>
+  </view>
+  <view class="txtImp">请客观的回答问题, 尽量做出真实的结果!</view>
+  <scroll-view>
+    <block wx:for="{{qitems}}" wx:key="*this">
+      <template is="listItem" data="{{...item}}"/>
+    </block>
+  </scroll-view>
+  <button class="mainbtn" type="primary" bindtap="onGetResult">评分</button>
+  <view class="txtresult" wx:if="{{getresult == true}}">{{theresult}}</view>
+  <view class="txtresult" wx:if="{{getresult == true}}">累分≥ 14 分且"从不"≦3 项，"经常"≥6 项者，可能为自闭症，分数越高，可能性越大。</view>
+  <ad unit-id="adunit-2b0ac28bf313b79f" style="margin-top:10px"></ad>
+</view>
+
+<template name="listItem">
+  <view class="testItem">
+    <text class="itemTxt">{{idx+1}}. {{title}}</text>
+    <radio-group id="checkbox_{{idx+1}}" bindchange="onSelectChkBox">
+      <radio id="checkbox_{{idx+1}}_n" class="chkBox" value="0"/>
+      <label for="checkbox_{{idx+1}}_n"><text space="nbsp">从不    </text></label>
+      <radio id="checkbox_{{idx+1}}_st" class="chkBox" value="1"/>
+      <label for="checkbox_{{idx+1}}_st"><text space="nbsp">偶尔    </text></label>
+      <radio id="checkbox_{{idx+1}}_of" class="chkBox" value="2"/>
+      <label for="checkbox_{{idx+1}}_of"><text space="nbsp">经常    </text></label>   
+    </radio-group>
+  </view>
+</template>
+
