@@ -1,5 +1,7 @@
 //index.js
 //获取应用实例
+var utils = require("../../utils/util.js")
+
 const app = getApp()
 
 Page({
@@ -44,6 +46,13 @@ Page({
         }
       }
     })
+  },
+  onShareAppMessage: function (e) {
+    return {
+      title: utils.shareTitle,
+      desc: utils.shareDesc,
+      path: utils.sharePath
+    }
   }
 })
 

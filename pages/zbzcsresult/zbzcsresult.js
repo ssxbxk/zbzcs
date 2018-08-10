@@ -1,4 +1,6 @@
 // pages/zbzcsresult.js
+var utils = require("../../utils/util.js")
+
 Page({
   /**
    * 生命周期函数--监听页面加载
@@ -53,7 +55,11 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-  
+    return {
+      title: utils.shareTitle,
+      desc: utils.shareDesc,
+      path: utils.sharePath
+    }
   },
   onGetMain:function(){
     wx.navigateBack();
