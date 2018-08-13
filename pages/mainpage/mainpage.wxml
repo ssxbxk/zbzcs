@@ -1,5 +1,5 @@
 <!--pages/mainpage/mainpage.wxml-->
-<view class="titleImp" >你只是不同, 而非差与别人!</view>
+<view class="titleImp" >你只是不同, 而非差于别人!</view>
 <view class="titelview">
     <view class="titleTxt">常用筛查量表</view>
 </view>
