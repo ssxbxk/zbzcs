@@ -21,10 +21,10 @@
       <template is="listItem" data="{{...item}}"/>
     </block>
   </scroll-view>
+  <ad unit-id="adunit-5191cc2b7564a6a1" style="margin-top:10px"></ad>
   <button class="mainbtn" type="primary" bindtap="onGetResult">评分</button>
   <view class="txtresult" wx:if="{{getresult == true}}">{{theresult}}</view>
   <view class="txtresult" wx:if="{{getresult == true}}">累分≥ 14 分且"从不"≦3 项，"经常"≥6 项者，可能为自闭症，分数越高，可能性越大。</view>
-  <ad unit-id="adunit-2b0ac28bf313b79f" style="margin-top:10px"></ad>
 </view>
 
 <template name="listItem">

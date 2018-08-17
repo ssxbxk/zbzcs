@@ -6,8 +6,8 @@
   孤独症行为量表（ABC）：共57个项目，每个项目4级评分，总分≥31分提示存在可疑孤独症样症状，总分≥67分提示存在孤独症样症状，适用于8个月～28岁的人群。</text>
   </view>
   <view class="txtImp">请客观的回答问题, 尽量做出真实的结果!</view>
+  <ad unit-id="adunit-2b0ac28bf313b79f" style="margin-top:10px"></ad>
   <button class="btnStart" type="primary" bindtap="onStart">开始测试</button>
   <button class="btnHistory" type="primary" bindtap="onHistory" disabled="{{disableHist}}">查看历史记录</button>
-  <ad unit-id="adunit-2b0ac28bf313b79f" style="margin-top:10px"></ad>
 </view>
 

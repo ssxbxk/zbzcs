@@ -15,12 +15,12 @@
       <template is="listItem" data="{{...item}}"/>
     </block>
   </scroll-view>
+  <ad unit-id="adunit-53ccb488919c3151" style="margin-top:10px"></ad>
   <button class="mainbtn" type="primary" bindtap="onGetResult">评分</button>
   <view class="txtresult" wx:if="{{getresult == true}}">{{theresult}}</view>
   <view class="txtresult" wx:if="{{getresult == true}}" space="emsp">总分 小于30 分为非孤独症, 总分 30～36 分为轻至中度孤独症, 总分 ≥36 分为重度孤独症.
 
   重度孤儿症危险要求总分需要大于36分并且5项以上达3分或大于3分时才可以判断</view>
-  <ad unit-id="adunit-2b0ac28bf313b79f" style="margin-top:10px"></ad>
 </view>
 
 <template name="listItem">
