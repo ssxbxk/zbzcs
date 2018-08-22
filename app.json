@@ -6,7 +6,9 @@
     "pages/zbzcsresult/zbzcsresult",
     "pages/zbzcshistory/zbzcshistory",
     "pages/cabs/cabsmain",
-    "pages/cars/carsmain"
+    "pages/cars/carsmain",
+    "pages/jyxl/jyxlmain",
+    "pages/kfzn/kfznmain"
   ],
   "window": {
     "backgroundTextStyle": "light",

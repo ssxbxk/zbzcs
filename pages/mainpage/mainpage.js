@@ -17,6 +17,16 @@ Page({
       url: '../cars/carsmain',
     })
   },
+  onKFZN:function(){
+    wx.navigateTo({
+      url: '../kfzn/kfznmain',
+    })
+  },
+  onJYXL:function(){
+    wx.navigateTo({
+      url: '../jyxl/jyxlmain',
+    })
+  },
   onShareAppMessage: function (e) {
     return {
       title: utils.shareTitle,

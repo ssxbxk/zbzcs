@@ -9,9 +9,11 @@
   <button class="mainbtn" type="primary" bindtap="onCABS">克氏孤独症行为量表(CABS)</button>
 </view>
 <view class="titelview">
-    <view class="titleTxt">常用诊断量表</view>
+    <view class="titleTxt">诊断量表&康复指南</view>
 </view>
 <view class="contentView">
   <button class="mainbtn" type="primary" bindtap="onCARC">儿童孤独症评定量表(CARS)</button>
+  <button class="mainbtn" type="primary" bindtap="onKFZN">儿童孤独症诊疗康复指南</button>
+  <button class="mainbtn" type="primary" bindtap="onJYXL">学习障碍儿童的教育训练</button>
 </view>
 <ad unit-id="adunit-b53756690649ec6a" style="margin-top:10px"></ad>

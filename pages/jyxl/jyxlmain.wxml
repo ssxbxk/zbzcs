@@ -1,0 +1,425 @@
+<!--pages/jyxl/jyxlmain.wxml-->
+<view class="bodyview">
+<text class="docTitleLine">学习障碍儿童的教育训练</text>
+<text class="content" space="emsp">  学习障碍儿童（Children With Learning Disabilities）又被译为学习低能儿童、学习失调儿童、学习无能儿童、学习失能儿童等。称谓最早由美国柯克（S．Kirk）1963年首次提出。他最早提出并描述了这类儿童的特征。</text>
+<text class="content" space="emsp">  美国学习障碍儿童全国联合委员会于1981年由于获取并运用听、说、阅读、书写、推理或数学能力明显困难而表现出种种异常的各种不同类型的人。这些异常是个体内在而本质的表现，它们可能是由于中枢神经机能不良所造成的。后来认为是心理或神经方面的一种异常情况，表现为某些特定行为与成就之间的差距，或已知的潜在能力与学习成就之间的悬殊出入，且其低能已使该儿童无法适合大多数儿童的教材教法，而需要特殊的方式以获得发展，这种低能并非以严重的智能不足、感官障碍、情绪问题，或欠缺学习机会为主要原因。</text>
+<text class="content" space="emsp">  近年来的研究表明导致儿童学习障碍的主要原因是儿童基本学习技能的失调，主要指听、说、写、读、拼（音）、计算等技能。这些基本学习技能的发展，一方面与个体知觉的发展有直接的关系，另一方面可以通过特殊教育的特殊训练得到改善。</text>
+<text class="header" space="emsp">一、算术障碍学生的训练</text>
+<text class="content" space="emsp">算术是数学的基础，影响儿童学习算术的因素包括数学本身的抽象性、学生的认知风格、认知能力、教学因素等。算术涉及到应用题、代数、几何运算等。</text>
+<text class="header" space="emsp">（一）算术障碍的原因分析</text>
+<text class="content" space="emsp">1．数学学习准备技能不足</text>
+<text class="content" space="emsp">大小辨别困难</text>
+<text class="content" space="emsp">形状辨别困难</text>
+<text class="content" space="emsp">一一对应困难</text>
+<text class="content" space="emsp">数数困难</text>
+<text class="content" space="emsp">视听联结困难等</text>
+<text class="content" space="emsp">2．运算方法混淆</text>
+<text class="content" space="emsp">如常把加法运算做成减法运算或在一个运算中运用了两种运算方法，式题越复杂，算法也越复杂，儿童产生运算混淆的现象也越严重。</text>
+<text class="content" space="emsp">3．计算错误</text>
+<text class="content" space="emsp">儿童运用的法则与运算方法都正确，但在计算上发生了错误。</text>
+<text class="content" space="emsp">4．没有掌握数学法则</text>
+<text class="content" space="emsp">例如不会退位减法、错用进位或者在进位的数位上发生了错误，或把进位与运算次序颠倒。</text>
+<text class="content" space="emsp">5．省略运算步骤</text>
+<text class="content" space="emsp">如在二位数乘法运算时只做一位数的运算；除法运算时忽略了余数等。</text>
+<text class="content" space="emsp">6．不能进行心理上的迁移</text>
+<text class="content" space="emsp">不断地运用以前学习过的程序和规则（如加法），却不能把注意迁移到其他运算上，如会加减法，但学不会乘除法。</text>
+<text class="content" space="emsp">7．空间组织困难</text>
+<text class="content" space="emsp">如把数字颠倒或反向（方向混淆）</text>
+<text class="content" space="emsp">读错数字，如把71 读成17</text>
+<text class="content" space="emsp">被减数与减数混乱</text>
+<text class="content" space="emsp">运算过程中数字的位置排列发生错误</text>
+<text class="header" space="emsp">（二）算术障碍的训练</text>
+<text class="content" space="emsp">1．补习数学准备技能。</text>
+<text class="content" space="emsp">儿童入学时如果没有具备一些必要的技能与知识，则这些儿童在学习上发生困难的可能性就比较大。准备技能对于学习数学来说是比较关键的，这些技能缺陷会导致数学学习障碍，该补习准备技能包括：</text>
+<text class="content" space="emsp">①一一对应</text>
+<text class="content" space="emsp">它能够帮助儿童更好地理解数字的涵义</text>
+<text class="content" space="emsp">利用一切机会教儿童数字与物体之间的关系</text>
+<text class="xlhd" space="emsp">训练活动</text>
+<text class="content" space="emsp">把一些熟悉的物体，如玩具汽车、积本等，按照指定的数目（如三个或五个）分配给每个同学，给学生一套数字卡片，要求学生认数字。之后，要儿童按照每张卡片上的数字，把相应的实物（如积木、小珠子、笔等）放在卡片边上把上述活动反过来进行，即给儿童各类数目不同的实物，要儿童按照每类实物的数目，把相应的数字卡片放在实物上；</text>
+<text class="content" space="emsp">②分类</text>
+<text class="content" space="emsp">分类是指把物体按照一种或多种性质进行分组或组合。分类是重要的准备性技能，它关系到儿童对物体一般性质的了解，通过分类，儿童学会把大量物体分成数量较小的几组物体。</text>
+<text class="xlhd" space="emsp">训练活动</text>
+<text class="content" space="emsp">要求学生把一些物品分成几组，然后问他们在分类时用了什么规则，给学生一盒小的物品，先要求儿童按照一个特质（如颜色）进行分类，然后问儿童是否还可以用另外的方法进行分类如大小、质地等利用各种各样的物品。要求儿童把几个物体组成一组，然后要求其他儿童猜这组物品的性质是什么，即按照物品的何种性质来分类的。利用各种图片教儿童分类，图片可以包括不同类型的动物、食物、植物、玩具、人等。</text>
+<text class="content" space="emsp">③次序排列</text>
+<text class="content" space="emsp">次序排列能力与分类能力相似，也依赖于对物体一般属性的认识。在次序排列中，物体按照其本身所具有的属性进行排列。例如，</text>
+<text class="content" space="emsp">可以根据长度、重量、颜色、高度等属性对物体进行有次序的排列。</text>
+<text class="xlhd" space="emsp">训练活动</text>
+<text class="content" space="emsp">要求按照长短的次序排列物体</text>
+<text class="content" space="emsp">要求按照高低的次序排列物体</text>
+<text class="content" space="emsp">要求按照大小的次序排列物体</text>
+<text class="content" space="emsp">要求按照多少的次序排列物体</text>
+<text class="content" space="emsp">2．空间组织能力</text>
+<text class="content" space="emsp">不能把数字排成一行</text>
+<text class="content" space="emsp">不能准确地读数</text>
+<text class="content" space="emsp">不能把数字写在一个正确的位置</text>
+<text class="content" space="emsp">读数与写数困难（数字失读症）</text>
+<text class="content" space="emsp">表现为一是数字阅读和书写上的困难，把数字颠倒或反向（方向混淆），如6 和9 混淆；把3 反写、2 与5 混淆、把3 读错为8、把71 读成17；或者被减数与减数混乱，或者在运算过程中数字的位置排列发生错误等另一是阅读与书写符号上的困难，例如把3+5 读成或写成3X5，而且数字越长，困难也越明显，读三位数的数字要比二位数的数字难得多。</text>
+<text class="xlhd" space="emsp">训练活动</text>
+<text class="content" space="emsp">经常重复地进行读写练习</text>
+<text class="content" space="emsp">运用多项选择的作业，可以减轻儿童重复书写的单调性</text>
+<text class="content" space="emsp">为彻底解决，必须把练习与多项选择这两种方去结合起来。</text>
+<text class="content" space="emsp">定向练习与描写——要求儿童边描边说，加深对数字的印象</text>
+<text class="content" space="emsp">编些儿歌，在儿童写数字的同时，边写边念。</text>
+<text class="content" space="emsp">3．计算技能</text>
+<text class="content" space="emsp">学生计算技能的形成取决于他们对运算过程的理解，也就是对数理的理解，有些儿童能够进行计算，但不理解所作运算的涵义。</text>
+<text class="xlhd" space="emsp">训练活动</text>
+<text class="content" space="emsp">用图来表示乘法的涵义</text>
+<text class="content" space="emsp">要求儿童在运算时大声他说出其运算过程</text>
+<text class="content" space="emsp">不要让儿童只是念问题，要让他们解释涵义是什么</text>
+<text class="content" space="emsp">要求儿童用实物（如积木）来解释另一个儿童的运算过程</text>
+<text class="content" space="emsp">要求儿童把眼睛闭起来，利用声音来帮助运算</text>
+<text class="content" space="emsp">4. 了解基本的数学计算过程与结果</text>
+<text class="content" space="emsp">数学计算过程与结果确实有助于儿童掌握数学运算以及提高运算的速度。如果儿童不知道基本的数学计算过程与结果，他们在计算时就会速度很慢，且正确性很差。这些儿童在理解数学过程时会有困难，因为他们的注意只集中在所计算问题的一小部分上。</text>
+<text class="xlhd" space="emsp">训练活动( 策略)</text>
+<text class="content" space="emsp">帮助理解</text>
+<text class="content" space="emsp">学习特殊技巧</text>
+<text class="content" space="emsp">①两个相同数字的连加</text>
+<text class="content" space="emsp">让儿童学会利用两个相同的来解决基本的数学运算问题。如儿童知道了6+6=12，那么他们就能够很容易地计算6+7 了。</text>
+<text class="content" space="emsp">②数数</text>
+<text class="content" space="emsp">儿童在进行加或减运算时，不需要从1 开始数数，有时只要从最大的数字开始数就可以解决问题了。例如，在计算3+7=？时，学生可以从7 开始加，不要从3 开始加，如"8、9 、10”。同时可以运用这个方法来进行减法运算，只要儿童倒数就行了。如计算7-3 时，儿童可以从6 开始倒数："6、5、4。”</text>
+<text class="content" space="emsp">③利用交换方法</text>
+<text class="content" space="emsp">即让儿童知道加或乘任何两个数字总是产生相同的结果，跟数字的次序与位置无关。例如， 3+6 等于9，6+3 也等于9；4X5 等于20，5X4 也等于20。</text>
+<text class="content" space="emsp">④进行多一个或少一个的比较</text>
+<text class="content" space="emsp">此法可以与第一个方法结合起来使用</text>
+<text class="content" space="emsp">利用儿童已经掌握的数学计算过程与结果来进行多一个或少一个比较。例如，一般儿童都知道5+5=10 ，这样，如果儿童不会5+6时，可以告诉他6 比5 多了一个，所以，结果应该是比10 多一个，是11；同样，在儿童计算5+4 时，告诉儿童童4 比5 少了一个，结果应该是比10 少一个，就是9。</text>
+<text class="content" space="emsp">⑤利用10 和9 来进行运算</text>
+<text class="content" space="emsp">儿童很容易学会"10 加任何一个简单的数字”的算法。</text>
+<text class="content" space="emsp">先把9 当成10，得到一个答案；然后只要把答案减去1 就可以了</text>
+<text class="content" space="emsp">例如，在计算9+6 时，教儿童先把9 当成是10，10+6=16 ，然后再减去1，16-1=15</text>
+<text class="content" space="emsp">⑥成倍地加某一个数</text>
+<text class="content" space="emsp">首先可以教儿童成倍地加加10 ，即10， 20，30，...，100</text>
+<text class="content" space="emsp">然后学习成倍地加5，如5，10，15</text>
+<text class="content" space="emsp">加2，如2，4，6 ，等等</text>
+<text class="content" space="emsp">此法可为学习乘法和除法打基础</text>
+<text class="content" space="emsp">⑦了解加法与减法、乘法与除法之间的关系在儿童学习减法时就向儿童说明加法与减法之间的关系。告诉儿童加法的数就是减法的被减数等。同样可以让儿童了解乘法与除法之间的关系。</text>
+<text class="content" space="emsp">⑧接触数字</text>
+<text class="content" space="emsp">这是一种算术学习障碍儿童加、减、乘、除的有效方法，特别适合计算冲经常发生错误或在计算中借助于扳指的儿童。</text>
+<text class="content" space="emsp">具体的方法是在0 ～9 的每一数字上都按照数量画等同的点，运算时借助于数字上的点进行。</text>
+<text class="header" space="emsp">二、拼音障碍学生的训练</text>
+<text class="content" space="emsp">有的把“ｄ”和“ｂ”、“ｑ”和“ｐ”、“ｎ”和“ｕ”、“ｍ”和“ｗ”搞混</text>
+<text class="content" space="emsp">有的把“ｏｕ”和“ｕｏ”、“ｕｉ”和“ｉｕ”经常颠倒</text>
+<text class="content" space="emsp">有的“ｚ、ｃ、ｓ”和“ｚｈ、ｃｈ、ｓｈ”、“ｎ”和“ｌ” 不分</text>
+<text class="content" space="emsp">有的会读“ｓｈ”和"ǎｎｇ”但就是拼不了"ｓｈǎｎｇ”的音</text>
+<text class="header" space="emsp">（一）拼写困难的原因</text>
+<text class="content" space="emsp">找到原因问题就解决了一半</text>
+<text class="content" space="emsp">差异大，必须对症下药</text>
+<text class="content" space="emsp">1. 视觉记忆问题</text>
+<text class="content" space="emsp">学习障碍儿童中的许多拼写困难与视觉记忆缺陷有关</text>
+<text class="content" space="emsp">在记住单个字母以及字母在拼音中的次序时有困难或次序颠倒</text>
+<text class="content" space="emsp">如果儿童有视觉再认字母困难，那么他们在拼写中会有全面的困难，因为他们能够记住与回忆的拼音很少</text>
+<text class="content" space="emsp">2. 动作技能不佳</text>
+<text class="content" space="emsp">缺乏用动觉来“感觉”拼音并记住它们的能力</text>
+<text class="content" space="emsp">主要表现在书写拼音时，手的运动会全部被遗忘，不知道该怎么用笔运作了。</text>
+<text class="content" space="emsp">3. 语音能力缺陷</text>
+<text class="content" space="emsp">听觉记忆、听觉辨别及语音概括困难</text>
+<text class="content" space="emsp">表现在：回忆与字母相应的音的困难</text>
+<text class="content" space="emsp">不能肯定所听到的词的发音次序</text>
+<text class="content" space="emsp">回忆发音规则错误</text>
+<text class="content" space="emsp">不能把看到的视觉符号变换成言语信息</text>
+<text class="content" space="emsp">不能把听到的信息转换成拼写形式等。</text>
+<text class="content" space="emsp">4. 注意问题</text>
+<text class="content" space="emsp">如果儿童有注意缺陷就有可能导致拼写困难</text>
+<text class="content" space="emsp">如果让注意不良的儿童在词出现以前先进行思考—— 哪些字音是相似的、哪些在拼写方式上不同、哪些字拼写比较困难等，可以促进他们在拼写上的进步。</text>
+<text class="content" space="emsp">原理：</text>
+<text class="content" space="emsp">拼写问题需要特别的指导，他们不能自己发现拼音之间、音与字之间的关系。传统的拼写教学并不一定适合学习障碍儿童。原因是传统的教学程序与方法不能进行个别化教育，不能适应不同性质拼写缺陷的学习障碍儿童的需要。另外传统的拼写教学往往过分强调字的学习或重复练习。</text>
+<text class="header" space="emsp">（二）教学程序与策略</text>
+<text class="content" space="emsp">急噪是无济于事的</text>
+<text class="content" space="emsp">理解万岁</text>
+<text class="content" space="emsp">当然技巧也很重要</text>
+<text class="content" space="emsp">1．激发学生的学习兴趣</text>
+<text class="content" space="emsp">游戏（猜字谜、抽字的卡片、连词等）</text>
+<text class="content" space="emsp">字的想象（叫儿童想象这个字像什么，然后把字大声念出来，再把它写下来）</text>
+<text class="content" space="emsp">字的联想等</text>
+<text class="content" space="emsp">2．检查错误的方法</text>
+<text class="content" space="emsp">检查错误是一种自我发现的方法</text>
+<text class="content" space="emsp">首先引导儿童把注意集中在不正确的拼写与正确的拼写之间有什么差异</text>
+<text class="content" space="emsp">然后写出正确的拼写方法，让学生自己把错误的与正确的进行比较</text>
+<text class="content" space="emsp">然后学生通过教师奖励来获得正确的拼写并由此达至学习拼写与自我指导的目的。</text>
+<text class="content" space="emsp">3．语言学方法</text>
+<text class="content" space="emsp">通过相似的字来达到教学目的</text>
+<text class="content" space="emsp">如教时将"OU”和"UO”、"an”和"ang”、"en”和"eng”、"b”和“d ”、"p”和"q”、"f ”和"t ”等音、形相近的进</text>
+<text class="content" space="emsp">行比较，加深学生的印象。</text>
+<text class="content" space="emsp">4．视听动结合法</text>
+<text class="content" space="emsp">使学生通过视听动等多种感觉来学习</text>
+<text class="content" space="emsp">如教师把拼音和字写给儿童看，拼读给儿童听</text>
+<text class="content" space="emsp">要求儿童在拼读的同时重复地进行描写</text>
+<text class="content" space="emsp">儿童按照样本写拼音和字，同时边写边读</text>
+<text class="content" space="emsp">拿走样本默写拼音和字。</text>
+<text class="header" space="emsp">三、书写障碍学生的训练</text>
+<text class="content" space="emsp">小于的作业很少得到红旗，字写得东倒西歪，到处是橡皮擦过的黑印，有的地方甚至都擦破了，家长开始意识到孩子是否有书写障碍问题。</text>
+<text class="header" space="emsp">（一）书写困难的表现</text>
+<text class="content" space="emsp">也称为书写缺陷或视觉一动作整合问题。有书写困难的儿童在书写过程中会表现出各种各样的错误</text>
+<text class="content" space="emsp">1. 用力过重</text>
+<text class="content" space="emsp">用在铅笔上的力量太大。刚学习书写的儿童往往会出现这种情况，随着书写的不断熟练，运笔慢慢会自如起来。但学习障碍儿童却总是改不过来，在书写时时常会折断铅笔芯或戳破纸。</text>
+<text class="content" space="emsp">2. 握笔过紧</text>
+<text class="content" space="emsp">刚学书写的儿童由于不熟练，会使肌肉紧张，妨碍儿童稳定地和精确地完成书写动作，也很容易使儿童感到疲劳。正常儿童随着熟练程度的增加，这种现象也会慢慢消失，但学习障碍儿童则可能一直保持下去。</text>
+<text class="content" space="emsp">3. 身体姿势与握笔方法不正确。</text>
+<text class="content" space="emsp">手臂过于贴近身体；手指过于接近笔尖；只用食指来运笔，纸的位置不正确（纸常移动、纸放得太斜等）；手指生硬、不自然；身体太接近桌面；手指握笔过高。</text>
+<text class="content" space="emsp">4. 字不匀称</text>
+<text class="content" space="emsp">对字的各部分缺乏理解，写出来的字该小的地方不小，该大的地方不大</text>
+<text class="content" space="emsp">手和手臂的运动过慢、运动的灵活性不够，也会使字体大小不一</text>
+<text class="content" space="emsp">字与字空间关系不明确，使得字与字之间的间距或大或小，如“好”字写成“女子”或“女子”写成了“好”字。</text>
+<text class="content" space="emsp">5. 笔顺问题</text>
+<text class="content" space="emsp">汉字书写讲究笔画顺序（笔顺）的正确性</text>
+<text class="content" space="emsp">有的书写时不遵循笔顺规则</text>
+<text class="content" space="emsp">有的把一笔分成两笔，或者把几笔连成一笔</text>
+<text class="content" space="emsp">有的笔画倒着写</text>
+<text class="content" space="emsp">有的对某些不规则的字，机械地按照某一规则来写。</text>
+<text class="content" space="emsp">6. 字迹潦草</text>
+<text class="content" space="emsp">主要是在小学高年级或中学生中表现出来，</text>
+<text class="content" space="emsp">所写的字没有结构，表现在写得不正，东倒西歪，不成比例</text>
+<text class="content" space="emsp">所写的字没有笔画，表现为横不象横，竖不像竖，信手乱涂，自己或别人很难认得清。</text>
+<text class="content" space="emsp">7. 字反写</text>
+<text class="content" space="emsp">特别是在写拼音字母、数字时，如把“于”的勾象右，“雪”的下半部开口向右，"3”写成象大写"E”字等</text>
+<text class="content" space="emsp">学习障碍儿童这个情况持续的时间远比正常儿童长。</text>
+<text class="content" space="emsp">8. 写得很慢，很吃力</text>
+<text class="content" space="emsp">写出来的字经常很不整洁，也很难看得清楚</text>
+<text class="content" space="emsp">很少有自己的书写风格</text>
+<text class="content" space="emsp">书面测验会给他们带来困难，因为他们费力的书写妨碍了他们的思维过程。</text>
+<text class="header" space="emsp">（二）原因</text>
+<text class="content" space="emsp">可能是由于书写前准备技能发育不良或各种动作困难造成</text>
+<text class="content" space="emsp">1. 精细动作协调能力没有得到较好的发展</text>
+<text class="content" space="emsp">儿童经常在持笔、运笔、抓笔、用力等方面缺乏经验与技巧</text>
+<text class="content" space="emsp">2. 视知觉困难儿童</text>
+<text class="content" space="emsp">约有25％是书写困难的学习障碍儿童。这些儿童会在中途停止书写，因为他们不能在头脑中形成字或字母的形象。</text>
+<text class="content" space="emsp">3. 动作一运动协调不良</text>
+<text class="content" space="emsp">是形成书写困难的最普遍原因之一</text>
+<text class="content" space="emsp">这类儿童的手不能自如地运动，在书写过程中，他们需要有意识地指导自己去注意那些书写线索（例如空间大小、间架结构）等。</text>
+<text class="content" space="emsp">4. 注意不良</text>
+<text class="content" space="emsp">会影响信息的输入和书写结果</text>
+<text class="content" space="emsp">会造成许多细节不能被观察或难以回忆，儿童不能理解与发现一些内在关系，不能预先计划在空间上的动作一运动。他们发现自己的错误后，也只是冒冒失失地擦掉重写一遍。</text>
+<text class="header" space="emsp">（三）书写的意义</text>
+<text class="content" space="emsp">“字是一个人的外表，从一个人的字上就能看出他是一个什么样的人”。书写的重要性随着儿童年龄的增长、学历的不断提高而变得越来越重要，教师通常使用书面考试与文章来评定学生是否掌握了知识。</text>
+<text class="content" space="emsp">还会干扰记笔记、写文章以及考试</text>
+<text class="content" space="emsp">对以后求职也不利</text>
+<text class="header" space="emsp">（四）书写教学及矫治策略</text>
+<text class="content" space="emsp">是使学生能够正确地握笔、运笔，姿势正确、位置正确，并且能够正确地、容易地、迅速地、清楚地形成书写的字形。</text>
+<text class="content" space="emsp">1. 精细动作困难矫治的方法</text>
+<text class="content" space="emsp">不仅要有效果，还要使儿童有兴趣，不觉得枯燥</text>
+<text class="content" space="emsp">可以教儿童描几何图形、画图画</text>
+<text class="content" space="emsp">让儿童在沙上写字</text>
+<text class="content" space="emsp">运用各种书写辅助工具</text>
+<text class="content" space="emsp">在教学写字时，要强调不能总是看一笔写一笔，要对整个字进行细致的观察，记往以后再写。</text>
+<text class="content" space="emsp">2. 知觉一动作方面</text>
+<text class="content" space="emsp">对字的形状的不良视觉认识或不良运动协调、不良视觉一空间判断等</text>
+<text class="content" space="emsp">教师就需要在认识和回忆大小、形状以及字母方向上进行教学</text>
+<text class="content" space="emsp">教学过程的重点应放在字的空间位置、形状以及组织等方面的技能上</text>
+<text class="content" space="emsp">教握笔的方法、纸放置的位置与角度、手臂的位置以及身体的位置等</text>
+<text class="content" space="emsp">3. 其他</text>
+<text class="content" space="emsp">让学生“描红”</text>
+<text class="content" space="emsp">练习写大字</text>
+<text class="content" space="emsp">连点成字</text>
+<text class="content" space="emsp">改错字（错别字医院）</text>
+<text class="header" space="emsp">四、阅读障碍学生的训练</text>
+<text class="content" space="emsp">阅读是个体最基本的学习技能，儿童阅读是大脑内部的一种复杂的编码、编译、图解过程，阅读涉及到个体视知觉、听知觉、言语与语言、思维、社会化水平、情绪发展、动作发展、动机与兴趣等许多方面的能力，上述某一方面出现问题，都会影响儿童阅读的正常发展，造成儿童阅读障碍。</text>
+<text class="header" space="emsp">（一）儿童阅读能力的发展</text>
+<text class="content" space="emsp">第一阶段：准备</text>
+<text class="content" space="emsp">第二阶段：学习阅读阶段</text>
+<text class="content" space="emsp">第三阶段：阅读技能的迅速发展</text>
+<text class="content" space="emsp">第四阶段：泛读阶段</text>
+<text class="content" space="emsp">第五阶段：精读</text>
+<text class="content" space="emsp">第一阶段：准备</text>
+<text class="content" space="emsp">这个阶段是以后阅读发展的基础，处于出生到6 岁期间，从教学角度看，在这阶段应教一些与阅读发展有关的基本能力，如颜色辨别、视觉与听觉辨别等能力；眼、手及动作协调等。这一阶段的另一任务是通过与书本培养孩子积极的情感、扩大孩子是阅读概念以及扩大知识背景的深度与广度等。</text>
+<text class="content" space="emsp">第二阶段：学习阅读阶段</text>
+<text class="content" space="emsp">教儿童建立发音与语言符号之间的关系（在第一信号系统和第二信号系统之间建立联系），强调认识词汇，建立阅读的自信心，开始教词的分析技能（识字或词）。</text>
+<text class="content" space="emsp">听知觉与视知觉、更好地倾听与运用语言等能力以及概念与背景知识等也需在这一阶段得到不断的发展。</text>
+<text class="content" space="emsp">学习阅读阶段任务</text>
+<text class="content" space="emsp">需要学习拼音及字的发音</text>
+<text class="content" space="emsp">各种发音的听一视— 动知觉</text>
+<text class="content" space="emsp">利用前后关系和图片线索获得意义</text>
+<text class="content" space="emsp">用不同的语调、声音进行大声朗读</text>
+<text class="content" space="emsp">理解言语与印刷语言之间的联系与区别</text>
+<text class="content" space="emsp">会用字典</text>
+<text class="content" space="emsp">学习一些结构成分如句子结构、变调等</text>
+<text class="content" space="emsp">第三阶段：阅读技能的迅速发展</text>
+<text class="content" space="emsp">在这个阶段进行全面的基本阅读技能教学</text>
+<text class="content" space="emsp">这一阶段从二三年级开始</text>
+<text class="content" space="emsp">第三阶段任务</text>
+<text class="content" space="emsp">扩大词汇量</text>
+<text class="content" space="emsp">提高阅读理解能力</text>
+<text class="content" space="emsp">增强独立地进行词分析的能力</text>
+<text class="content" space="emsp">建立阅读兴趣，鼓励学生对各类材料进行广泛的阅读</text>
+<text class="content" space="emsp">加强默读能力，鼓励儿童的娱乐性阅读，如看小说、杂志、报刊</text>
+<text class="content" space="emsp">第四阶段：泛读阶段</text>
+<text class="content" space="emsp">一般发生在小学中高年级</text>
+<text class="content" space="emsp">是运用多种阅读方法和材料时期，提高对研究性材料的选择、评价及组织技能和默读速度</text>
+<text class="content" space="emsp">强调独立地阅读</text>
+<text class="content" space="emsp">泛读阶段任务</text>
+<text class="content" space="emsp">自己确定与运用参考材料</text>
+<text class="content" space="emsp">对材料的阅读兴趣不断提高</text>
+<text class="content" space="emsp">进一步扩大词汇量</text>
+<text class="content" space="emsp">发展理解技能（强调、主要观念、次序等的理解）</text>
+<text class="content" space="emsp">即时进行词分析的技能</text>
+<text class="content" space="emsp">第五阶段：精读</text>
+<text class="content" space="emsp">一般发生在中学和大学时期</text>
+<text class="content" space="emsp">以高水平的理解和学习技能为特征</text>
+<text class="content" space="emsp">阅读速度的灵活性增加</text>
+<text class="content" space="emsp">精读阶段任务</text>
+<text class="content" space="emsp">可以根据不同的目的来变化阅读的速度以提高阅读效率</text>
+<text class="content" space="emsp">越来越精确地理解阅读材料</text>
+<text class="content" space="emsp">强调对结论和中心思想的推断</text>
+<text class="content" space="emsp">音调和语气的应用</text>
+<text class="content" space="emsp">影响阅读因素</text>
+<text class="content" space="emsp">阅读发展受遗传和环境双重因素的影响，即身体成长、心理成熟、情绪发展、社会调节、教育状况、家庭等都会影响阅读发展。</text>
+<text class="header" space="emsp">（二）阅读障碍学生常见的问题</text>
+<text class="content" space="emsp">差异性</text>
+<text class="content" space="emsp">有些阅读不良儿童与正常阅读者的发展过程相同，但发展的速度却很慢。对于这些学生，要加强阅读前的准备水平，保证阅读能够顺利地进行。有些阅读不良学生的问题可能会发生在上述各个阅读阶段中的某一阶段上，即阅读模式在性质上不同于正常的过程。</text>
+<text class="content" space="emsp">常见的阅读障碍类型包括</text>
+<text class="content" space="emsp">1．视觉辨别困难 2 ．听觉加工困难</text>
+<text class="content" space="emsp">3．字词分析技术不当</text>
+<text class="content" space="emsp">4．直观字或词辨别困难</text>
+<text class="content" space="emsp">5．字或词反向 6 ．记忆困难</text>
+<text class="content" space="emsp">7．理解技能缺陷 8 ．阅读量不足</text>
+<text class="content" space="emsp">9．阅读时的不良行为</text>
+<text class="content" space="emsp">1．视觉辨别困难</text>
+<text class="content" space="emsp">又称视觉诵读困难（ visual dyslexics）或视空间诵读困难（ visual-spatial dyslexics）。主要缺陷是在再认和记住字母和词的形状等能力上</text>
+<text class="content" space="emsp">例如：有一些儿童在认字词时会出现混淆，特别是一些形状相近的字与字母，有的在阅读时索性在句于中省略字词或加入多余的字词，有的读着读着就读窜了行，有的则不能阅读换了颜色的字，有的则不能阅读变了大小的字，有的则不能阅读用其他材料写或做的字。</text>
+<text class="content" space="emsp">早期发现</text>
+<text class="content" space="emsp">视觉辨别困难也可能在年幼的儿童中观察到</text>
+<text class="content" space="emsp">能不能把各种不同大小、颜色、形状的物体匹配起来，是鉴别视觉困难的一个指标</text>
+<text class="content" space="emsp">2．听觉加工困难</text>
+<text class="content" space="emsp">又称听觉诵读困难（ auditory dyslexics），或听觉发音诵读困难(audio-phonic dyslexics）。这些儿童在记住字母的发音、分析词中的个别发音以及把这些发音按次序排列、混合成词的能力上有困难:</text>
+<text class="content" space="emsp">例如</text>
+<text class="content" space="emsp">常常睁着眼睛读“白字”而自己却听不出来</text>
+<text class="content" space="emsp">有的用形状相似或发音相似的词代替</text>
+<text class="content" space="emsp">有的用意义相近的词代替</text>
+<text class="content" space="emsp">有的字词发音错误</text>
+<text class="content" space="emsp">有的整个词的音节的次序颠倒</text>
+<text class="content" space="emsp">有的将句子中词的位置进行颠倒, ,</text>
+<text class="content" space="emsp">最严重者</text>
+<text class="content" space="emsp">在视觉加工与听觉加工两个方面都有缺陷</text>
+<text class="content" space="emsp">这些儿童被称为失读症（ a1exics）儿童</text>
+<text class="content" space="emsp">3．字词分析技术不当</text>
+<text class="content" space="emsp">学习阅读的一个重要技能就是有效地进行字词的分析</text>
+<text class="content" space="emsp">阅读汉语字词的分析技能中，结构、图形线索、形状、语音分析以及前后关系分析等是几种被应用得最广泛的技术。</text>
+<text class="content" space="emsp">结构分析</text>
+<text class="content" space="emsp">是指通过利用字的各部分结构来对字进行辨别</text>
+<text class="content" space="emsp">偏旁结构</text>
+<text class="content" space="emsp">前后结构</text>
+<text class="content" space="emsp">左右结构</text>
+<text class="content" space="emsp">上下结构</text>
+<text class="content" space="emsp">形状分析</text>
+<text class="content" space="emsp">是根据字的形状、笔画、复杂性等来辨别词</text>
+<text class="content" space="emsp">根据文中的前后关系来分析、推测字词的意义</text>
+<text class="content" space="emsp">图形线索</text>
+<text class="content" space="emsp">是人为地利用汉字象形的线索来使儿童更容易地记往词</text>
+<text class="content" space="emsp">语音分析</text>
+<text class="content" space="emsp">是利用汉字形声的特点帮助儿童识字</text>
+<text class="content" space="emsp">阅读障碍儿童</text>
+<text class="content" space="emsp">不能或者不合适地使用许多字词分析技术</text>
+<text class="content" space="emsp">在遇到不熟悉的字词时不能选择一个有效的分析技术</text>
+<text class="content" space="emsp">过分依赖于某一种技术</text>
+<text class="content" space="emsp">所以，应该教学业不良儿重同时使用多种词分析技术。</text>
+<text class="content" space="emsp">4．直观字或词辨别困难</text>
+<text class="content" space="emsp">读者看到某个字或词后能够立即认识的称为直观字或词</text>
+<text class="content" space="emsp">有些字（词）在基础阅读材料和口语中一遍又一遍地重复出现</text>
+<text class="content" space="emsp">直观地认识一些词汇的能力能够促进早期的阅读成就，否则将严重地限制阅读。</text>
+<text class="content" space="emsp">常见直观字词</text>
+<text class="content" space="emsp">我、你、的、得、地、不、一、有、是、而、个、和、就、可、了、在、才</text>
+<text class="content" space="emsp">因为、由于、可是、但是、我们、你们、他们、所以、然后、即使、而且等</text>
+<text class="content" space="emsp">5．字或词反向</text>
+<text class="content" space="emsp">有的阅读障碍儿童在阅读时反向或颠倒着读字或词</text>
+<text class="content" space="emsp">字母的左右颠倒、上下颠倒</text>
+<text class="content" space="emsp">字的左右、上下反向颠倒</text>
+<text class="content" space="emsp">词的前后顺序颠倒等。</text>
+<text class="content" space="emsp">早期发现</text>
+<text class="content" space="emsp">常常表现出搞不清左右方位</text>
+<text class="content" space="emsp">身体定向能力差</text>
+<text class="content" space="emsp">刚入学的一些儿童可能会有这种反向现象，一定时期以后会自然消失，但有这方面持续困难的儿童，就会造成以后的阅读困难。</text>
+<text class="content" space="emsp">6．记忆困难</text>
+<text class="content" space="emsp">记忆是把阅读过的信息保持或贮存起来以备后用</text>
+<text class="content" space="emsp">记忆技能缺陷是阅读障碍儿童的普遍特征</text>
+<text class="content" space="emsp">他们一般不能同时运用多种策略来记忆</text>
+<text class="content" space="emsp">他们往往很难完成需要运用短时记忆的学习任务</text>
+<text class="content" space="emsp">究因</text>
+<text class="content" space="emsp">记忆缺陷与各种视觉或听觉加工过程有密切关系</text>
+<text class="content" space="emsp">视觉记忆缺陷可能影响记忆字词的能力</text>
+<text class="content" space="emsp">视觉顺序记忆则影响字的笔画次序记忆和在句子中词的排列次序记忆</text>
+<text class="content" space="emsp">听觉记忆困难会影响记忆字词发音的能力，继而影响声音混合能力。</text>
+<text class="content" space="emsp">7．理解技能缺陷</text>
+<text class="content" space="emsp">阅读的最终目的是获得有关信息，这就需要理解文章的意义</text>
+<text class="content" space="emsp">首先从理解文章中出现的字词开始</text>
+<text class="content" space="emsp">理解技能缺陷表现</text>
+<text class="content" space="emsp">有的往往正是在理解字词的含义方面出现了难题</text>
+<text class="content" space="emsp">有的虽然理解了每个字词但不能理解由一堆字词所组成句子的意义</text>
+<text class="content" space="emsp">有的理解了句子的意义却不能从众多信息中将一些无关细节分离而找出文章的中心思想。</text>
+<text class="content" space="emsp">低年级发展</text>
+<text class="content" space="emsp">对故事的特征已经比较敏感，包括故事的主要情节、一系列事件、推理、动机和情感以及故事的次序等。</text>
+<text class="content" space="emsp">训练他们比较有效地认识和回忆事件、对主要内容和关系进行再组织与推理、推断出结论、作出判断和概括、预见结果、应用所学习的知识以及遵循指示</text>
+<text class="content" space="emsp">中年级发展。</text>
+<text class="content" space="emsp">培养理解能力的目的就是上述能力的培养。</text>
+<text class="content" space="emsp">进行独立的学习：快读、利用参考材料、列出纲要、总结、改变阅读速度以及根据目的要求来改变阅读、利用题头、记笔记等。</text>
+<text class="content" space="emsp">上述任意环节出现问题都会导致儿童阅读障碍。</text>
+<text class="content" space="emsp">8．阅读时的不良行为</text>
+<text class="content" space="emsp">坐姿不良、持书太近</text>
+<text class="content" space="emsp">坐立不安、拒绝阅读</text>
+<text class="content" space="emsp">阅读太慢、逐字逐句地阅读</text>
+<text class="content" space="emsp">用不自然的声音阅读（如过分夸张、声音变调等）</text>
+<text class="content" space="emsp">忽视不会读的词汇、不愿大声朗读等。</text>
+<text class="content" space="emsp">9．阅读量不足</text>
+<text class="content" space="emsp">所阅读的材料较少，有的只有正常学生的三分之一至二分之一</text>
+<text class="content" space="emsp">没得读</text>
+<text class="content" space="emsp">懒得读</text>
+<text class="content" space="emsp">10. 其他</text>
+<text class="content" space="emsp">快速阅读词汇时，过多地使用视觉记忆的再认策略（他们迅速地再认出许多词汇，但不发音或很少发音），或者过多地使用词分析一综合策略（他们吃力地对每个词进行发音分析，而不能迅速地再认），不能把两者结合起来运用。</text>
+<text class="header" space="emsp">（三）阅读障碍的训练</text>
+<text class="content" space="emsp">不同的原因导致的阅读障碍其训练方法也不一样，如果种类或原因判断不正确，就等于没有对症下药，就会严重影响训练的效果。</text>
+<text class="content" space="emsp">1、视觉辨别困难儿童的训练</text>
+<text class="content" space="emsp">入手点在于训练其视觉辨别能力</text>
+<text class="content" space="emsp">先从训练寻找图形中遗漏部分开始，到许形近字的辨别，即训练学生读准每个字，然后进行词的训练，如词的认读、词的辨认、寻找词中的错别字等，再进行句子的阅读训练，要求学生一开始读时必须用右手指逐字逐词地指着大声朗读、左手放在所读行的开始。</text>
+<text class="content" space="emsp">2、听觉加工困难学生训练</text>
+<text class="content" space="emsp">让学生将自己所读的东西进行录音，然后逐字逐句地进行校对，找出错误所在，阅读材料应该选择学生比较感兴趣或者比较熟悉的内容容量做到由少到多。</text>
+<text class="content" space="emsp">3、字词分析技术困难学生的训练</text>
+<text class="content" space="emsp">重点加强字的音、形、意教学，即使其第一信号系统和第二信号系统之间建立正常的联系，同时加强字的构词能力训练，即在字的教学过程中加强字的组词能力训练。</text>
+<text class="content" space="emsp">“中心开花式”</text>
+<text class="content" space="emsp">“接龙式”</text>
+<text class="content" space="emsp">中心开花式</text>
+<text class="content" space="emsp">接龙式</text>
+<text class="content" space="emsp">大——大学——学习——习武——武士道——道路——路上——上面——面的——的士——士气——气愤——愤怒——怒气——气筒——筒子楼——楼房——房顶——顶头上司——司令——令箭——箭头——头发——发财——财源茂盛——盛大——大小——</text>
+<text class="content" space="emsp">4、直观字词问题学生的训练</text>
+<text class="content" space="emsp">将直观字词做成卡片</text>
+<text class="content" space="emsp">每天一有空闲时间就拿出来反复练习，加强记忆。</text>
+<text class="content" space="emsp">5、记忆困难学生和理解问题学生的训练</text>
+<text class="content" space="emsp">遵循由单字——双字词——多字复合词——短句——完整句——复合句——段——篇的顺序</text>
+<text class="content" space="emsp">由直观——形象——抽象的难度</text>
+<text class="content" space="emsp">由熟悉或感兴趣——不熟悉或不感兴趣的原则</text>
+<text class="content" space="emsp">按照不同水平和进度选择相应的内容，学生阅读之后应立即让其复述阅读内容，一遍不行两遍、两遍不行三遍，直到能基本复述为止</text>
+<text class="content" space="emsp">对阅读障碍学生</text>
+<text class="content" space="emsp">注意其良好阅读习惯的培养</text>
+<text class="content" space="emsp">阅读量的适当增加</text>
+<text class="content" space="emsp">适当评估与奖励</text>
+<text class="header" space="emsp">语言障碍儿童的定义</text>
+<text class="content" space="emsp">1. 学理的定义:</text>
+<text class="content" space="emsp">（1）一般特殊教育学者对语言障碍所作的定义：</text>
+<text class="content" space="emsp">a. 沟通：是思想、信息或概念的交换。它可以是非语文的，可透过肢体语言和面部表情来传达，沟通的必备条件是一位输出者、一项讯息和一位接收者。只要输出者能正确且完全传达自己的讯息而且接收者也能完整的了解这项讯息即可算了已达到沟通的意义与目的了。</text>
+<text class="content" space="emsp">b. 语言：是一套既定的符号或文字以系统性的口语产生，用来作为人类表达、接受讯息的工具。</text>
+<text class="content" space="emsp">c. 说话：是以有声或口述的方式来表达语言，作为人与人之间沟通的方式称之为说话。</text>
+<text class="content" space="emsp">说话的产生包含下列四个过程：</text>
+<text class="content" space="emsp">（a）呼吸作用制造发音的能量。</text>
+<text class="content" space="emsp">（b）发声是透过声带的震动制造声音。</text>
+<text class="content" space="emsp">（c）共鸣是让声音有独特的特质，以便辨认发声者。</text>
+<text class="content" space="emsp">（d）清晰的声音是口与舌的动作制造出说话的音素。</text>
+<text class="content" space="emsp">以上这些过程中任何一项受到损伤都会导致语言异常，但未必会干扰到语言的学习或阅读、书写。若是听力丧失也会造成语言异常，如果一个孩子无法听到自己说话的声音他便很难开口说话。沟通异常是指在说话和语言两方面都异常，说话异常是指语音的清晰度或流利度异常，语言异常是指对语言符号系统的了解困难即听说读写的能力发展受到损伤。</text>
+<text class="content" space="emsp">d. Cromer 对语言异常的定义是：它并非由其它障碍所引起的异常（如听障、智障、性格异常）。（ Kirk 、Gallagher & Anastasiow ，eighth edition）</text>
+<text class="content" space="emsp">（2）医学上的定义：</text>
+<text class="content" space="emsp">a. 说话障碍：是指在构音、语畅、声音或综合以上各项有发生异常现象者。</text>
+<text class="content" space="emsp">b. 次发性说话障碍：因语言异常而引起的说话障碍，也就是说对语言的了解发生困难而引起说话障碍，或因说话异常合并语言异常而引起的说话障碍。</text>
+<text class="content" space="emsp">c. 发育性说话障碍：个体因先天脑神经性学习的某种异常而导致学习说话能力的障碍。</text>
+<text class="content" space="emsp">d. 混合性说话障碍：个体在说话的生理构造、脑神经学习上以及语言的了解上皆出现问题或困难而产生了混合性的说话障碍。</text>
+<text class="content" space="emsp">（3）语言学：凡是语音、语义、语法、语用、语言表达、语言认知上发生异常或在语言发展上有迟缓或异常皆可算是一种语言障碍。（吕一慈&龚淑女）</text>
+<text class="content" space="emsp">（4）与语言沟通层次有关的定义：</text>
+<text class="content" space="emsp">a. 语言学层次的障碍：个体在把自己特定的概念或信息依语言系统的规则来传递时有障碍或个体在判读即接收信息上有障碍，此种障碍是与高层次的脑神经系统功能的障碍有关。</text>
+<text class="content" space="emsp">b. 生理层次的障碍：可分为两种</text>
+<text class="content" space="emsp">（a）呼吸、发声、构音、共鸣、韵律等有关发音发语的生理器官出现障碍，亦即信息的输出系统之障碍。</text>
+<text class="content" space="emsp">（b）与说话知觉或构音运动知觉有关之听觉过程、运动知觉、固有感觉等方面出现障碍，亦即信息的输入系统之障碍。（毛连塭&许泽铭，民81）</text>
+<text class="content" space="emsp">2. 法定的定义</text>
+<text class="content" space="emsp">（1） 美语听语学会（ ASHA）对说话和语言沟通异常的定义：</text>
+<text class="content" space="emsp">a. 说话异常是指一种说话声音的清晰度及流利度遭受损伤而这种损伤可以在传达的过程中观察到。</text>
+<text class="content" space="emsp">（a）声音异常是指声音的质量、音调、音量、共鸣、长短或组合的产生缺乏或异常。</text>
+<text class="content" space="emsp">（b）清晰度异常是指说话语音的产生异常。</text>
+<text class="content" space="emsp">（c）流利度异常是指语文表达的流利度异常，速度和节奏不顺畅同时也伴随着说话者努力挣扎的行为特征。</text>
+<text class="content" space="emsp">b. 语言的异常是指对语言的理解或使用有困难（或两者皆包括）， 对于语言文字的听说读写有困难，或其它文字元号系统的发展不完整。</text>
+<text class="content" space="emsp">（2）依据我国特殊教育法第十五条第四款所称之语言障碍是指语言理解或语言表达能力与同年龄者相较，有显著偏差或迟缓现象，而造成沟通困难者。</text>
+<text class="content" space="emsp" style="color:red">感谢耐心阅读！祝愿早日康复！</text>
+<ad unit-id="adunit-d69c0f0663b1d4f7"></ad>
+</view>
