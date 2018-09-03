@@ -7,6 +7,7 @@ var colCnt = 5;
 var rowCnt = 7;
 var intUpdateTime = null;
 var iTime = 0;
+const innerAudioContext = wx.createInnerAudioContext();
 
 Page({
   data: {
@@ -59,14 +60,16 @@ Page({
     let arrRowCol = e.target.id.split('_');
     if (this.checkClickedObj(e.target.dataset.objtype))
     {
+      // 点击正确
       this.animSucc.rotate(360).scale(0).step();
       map[arrRowCol[0]][arrRowCol[1]].animation = this.animSucc.export();
-
       this.checkMoreObjInMap();
     }
     else{
+      // 点击错误
       this.animError.rotate(360).step();
       map[arrRowCol[0]][arrRowCol[1]].animation = this.animError.export();
+      this.PlayVoice(utils.tts_error);
     }
     this.setData({ pageobjs: map });
   },
@@ -102,10 +105,16 @@ Page({
   getColorShape:function(){
     if (allObjs.length > 0){
       currentObj = allObjs[Math.floor(Math.random() * allObjs.length)];
-      this.setData({ title: "请选择 - " + utils.translateObj(currentObj) + "(" + allObjs.length + ")"});
+      this.PlayVoice(utils.arrTTS[currentObj]);
+      this.setData({ title: "请点击 - " + utils.translateObj(currentObj) + "(" + allObjs.length + ")"});
     }
     else{
+      this.PlayVoice(utils.tts_finished);
       this.setData({ title: "选择完毕" });
+      if (intUpdateTime != null){
+        clearInterval(intUpdateTime);
+        intUpdateTime = null;
+      }
     }
   },
   checkMoreObjInMap:function(){
@@ -150,5 +159,15 @@ Page({
       return '0' + n;
     else
       return n;
+  },
+  PlayVoice:function(src){
+    innerAudioContext.src = src;
+    innerAudioContext.play();
+    innerAudioContext.onPlay(() => {
+      console.log('开始播放')
+    })
+    innerAudioContext.onError((e) => {
+      console.log('播放失败:' + e);
+    })
   }
 })

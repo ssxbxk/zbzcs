@@ -9,7 +9,7 @@
     "pages/cars/carsmain",
     "pages/jyxl/jyxlmain",
     "pages/kfzn/kfznmain",
-    "pages/xlxmcolors/xlxmcolors"    
+    "pages/xlxmcolors/xlxmcolors"
   ],
   "window": {
     "backgroundTextStyle": "light",
