@@ -1,0 +1,9 @@
+<view class="section">
+  <view class="section__title red">{{title}}</view>
+  <view class="flex-wrp-row" wx:for="{{pageobjs}}" wx:for-index="idx" wx:key="unique">
+      <image animation="{{subitem.animation}}" wx:for="{{item}}" wx:key="unique" wx:for-item="subitem" wx:for-index="subidx" class="itemimg" 
+        bindtap='onClickObj' src="{{subitem.src}}" id="{{idx}}_{{subidx}}" data-objtype="{{subitem.objtype}}"></image>
+  </view>
+</view>
+<button class="btnStart" type="primary" bindtap="ReStart">重新开始 {{time}}</button>
+<ad unit-id="adunit-d756b50489ab0e3c"></ad>

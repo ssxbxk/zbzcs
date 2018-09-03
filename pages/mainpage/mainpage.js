@@ -27,6 +27,11 @@ Page({
       url: '../jyxl/jyxlmain',
     })
   },
+  onYSXZBB:function(){
+    wx.navigateTo({
+      url: '../xlxmcolors/xlxmcolors',
+    })
+  },
   onShareAppMessage: function (e) {
     return {
       title: utils.shareTitle,

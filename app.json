@@ -8,7 +8,8 @@
     "pages/cabs/cabsmain",
     "pages/cars/carsmain",
     "pages/jyxl/jyxlmain",
-    "pages/kfzn/kfznmain"
+    "pages/kfzn/kfznmain",
+    "pages/xlxmcolors/xlxmcolors"    
   ],
   "window": {
     "backgroundTextStyle": "light",
