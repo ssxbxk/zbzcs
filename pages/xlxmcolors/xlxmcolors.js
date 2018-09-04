@@ -41,13 +41,13 @@ Page({
     this.start();
   },
   start:function(){
-    if (intUpdateTime != null)
-      clearInterval(intUpdateTime);
-    intUpdateTime = setInterval(this.updatetime, 1000);
     this.onInitPage();
     this.getObjects();
     this.getColorShape();
     this.setData({ pageobjs: map });
+    if (intUpdateTime != null)
+      clearInterval(intUpdateTime);
+    intUpdateTime = setInterval(this.updatetime, 1000);
   },
   onInitPage: function(){
     map.length = 0;
@@ -57,7 +57,7 @@ Page({
     this.updatetime();
   },
   onClickObj:function(e){
-    let arrRowCol = e.target.id.split('_');
+    let arrRowCol = e.target.id.split('_');    
     if (this.checkClickedObj(e.target.dataset.objtype))
     {
       // 点击正确
@@ -69,7 +69,7 @@ Page({
       // 点击错误
       this.animError.rotate(360).step();
       map[arrRowCol[0]][arrRowCol[1]].animation = this.animError.export();
-      this.PlayVoice(utils.tts_error);
+      //this.PlayVoice(utils.tts_error);
     }
     this.setData({ pageobjs: map });
   },
@@ -90,8 +90,8 @@ Page({
         let f = allObjs.find(((value) => {
           return value == iRandomObj
         }));
-        
-        if (!f)
+
+        if (f == undefined)
           allObjs.push(iRandomObj);
         arrRow.push(obj);
       }
@@ -105,11 +105,11 @@ Page({
   getColorShape:function(){
     if (allObjs.length > 0){
       currentObj = allObjs[Math.floor(Math.random() * allObjs.length)];
-      this.PlayVoice(utils.arrTTS[currentObj]);
+      //this.PlayVoice(utils.arrTTS[currentObj]);
       this.setData({ title: "请点击 - " + utils.translateObj(currentObj) + "(" + allObjs.length + ")"});
     }
     else{
-      this.PlayVoice(utils.tts_finished);
+      //this.PlayVoice(utils.tts_finished);
       this.setData({ title: "选择完毕" });
       if (intUpdateTime != null){
         clearInterval(intUpdateTime);
@@ -140,6 +140,8 @@ Page({
     }
   },
   ReStart:function(){
+    // 不清空界面有时无法刷新界面...
+    this.setData({ pageobjs: [] });
     this.start();
   },
   updatetime:function(){
