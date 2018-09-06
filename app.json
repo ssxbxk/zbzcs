@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/kfvideo/kfvideo",
     "pages/mainpage/mainpage",
     "pages/index/index",
     "pages/zbzcs/zbzcs",

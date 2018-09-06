@@ -1,0 +1,14 @@
+<view class="videoCls">
+  <video id="myVideo" src="{{videourl}}" binderror="videoErrorCallback" controls></video>
+</view>
+<scroll-view class="svMain" scroll-y="true" style="{{svHeight}}">
+  <block wx:for="{{vitems}}" wx:key="unique">
+    <template is="listItem" data="{{...item}}"/>
+  </block>
+</scroll-view>
+
+<template name="listItem">
+  <view class="testItem">
+    <text class="itemTxt" bindlongpress="OnPlay('{{idx+1}}. {{title}}', '{{url}}')">{{idx+1}}. {{title}}</text>
+  </view>
+</template>

@@ -171,5 +171,12 @@ Page({
     innerAudioContext.onError((e) => {
       console.log('播放失败:' + e);
     })
+  },
+  onShareAppMessage: function (e) {
+    return {
+      title: utils.shareTitle,
+      desc: utils.shareDesc,
+      path: utils.sharePath
+    }
   }
 })

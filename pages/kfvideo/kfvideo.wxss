@@ -1,0 +1,16 @@
+.videoCls{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.testItem{
+  margin-top: 20px;
+  display: flex;
+  flex-direction:column;
+  vertical-align: middle;
+  border-bottom: 1px solid cadetblue;
+}
+
+.svMain{
+  margin:20px;
+}
