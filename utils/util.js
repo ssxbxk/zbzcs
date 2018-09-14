@@ -44,11 +44,6 @@ const C_MAX_OBJ_IDX = 20;
 
 const arrImages = ['../../images/ic_black_circular.png', '../../images/ic_black_square.png', '../../images/ic_black_star.png', '../../images/ic_black_triangle.png', '../../images/ic_blue_circular.png', '../../images/ic_blue_square.png', '../../images/ic_blue_star.png', '../../images/ic_blue_triangle.png', '../../images/ic_green_circular.png', '../../images/ic_green_square.png', '../../images/ic_green_star.png', '../../images/ic_green_triangle.png', '../../images/ic_red_circular.png', '../../images/ic_red_square.png', '../../images/ic_red_star.png', '../../images/ic_red_triangle.png', '../../images/ic_yellow_circular.png', '../../images/ic_yellow_square.png', '../../images/ic_yellow_star.png', '../../images/ic_yellow_triangle.png'];
 
-const arrTTS = ['../../tts/请点击下面的黑色圆形.mp3', '../../tts/请点击下面的黑色方形.mp3', '../../tts/请点击下面的黑色星星.mp3', '../../tts/请点击下面的黑色三角形.mp3', '../../tts/请点击下面的蓝色圆形.mp3', '../../tts/请点击下面的蓝色方形.mp3', '../../tts/请点击下面的蓝色星星.mp3', '../../tts/请点击下面的蓝色三角形.mp3', '../../tts/请点击下面的绿色圆形.mp3', '../../tts/请点击下面的绿色方形.mp3', '../../tts/请点击下面的绿色星星.mp3', '../../tts/请点击下面的绿色三角形.mp3', '../../tts/请点击下面的红色圆形.mp3', '../../tts/请点击下面的红色方形.mp3', '../../tts/请点击下面的红色星星.mp3', '../../tts/请点击下面的红色三角形.mp3', '../../tts/请点击下面的黄色圆形.mp3', '../../tts/请点击下面的黄色方形.mp3', '../../tts/请点击下面的黄色星星.mp3', '../../tts/请点击下面的黄色三角形.mp3'];
-
-const tts_error = '../../tts/点错了哦, 再想想吧.mp3';
-const tts_finished = '../../tts/全部完成啦, 真是太棒了.mp3';
-
 function isBlack(v) {
   return v >= C_BLACK_CIRCULAR && v <= C_BLACK_TRIANGLE;
 }
@@ -197,9 +192,6 @@ module.exports = {
   arrImages: arrImages,
   translateColor: translateColor,
   translateShape: translateShape,
-  arrTTS:arrTTS,
-  tts_error:tts_error,
-  tts_finished:tts_finished,
   C_BLACK: C_BLACK,
   C_BLUE: C_BLUE,
   C_GREEN: C_GREEN,

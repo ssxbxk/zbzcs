@@ -1,10 +1,10 @@
 // pages/kfvideo/kfvideo.js
 var utils = require("../../utils/util.js")
 
-var items = [{ title: "不易与别人混在一起玩", idx:0 },
-  { title: "听而不闻，像是聋子", idx: 1},
-  { title: "教他学什么，他强烈反对，如拒绝", idx: 2 },
-  { title: "不顾危险", idx: 3 }]
+var items = [{ title: "test", idx:0 },
+  { title: "test", idx: 1},
+  { title: "test", idx: 2 },
+  { title: "test", idx: 3 }]
 
 Page({
   data: {
