@@ -14,3 +14,12 @@
 .svMain{
   margin:20px;
 }
+
+.title, .titleinfo{
+  font-size: 15px;
+}
+
+.titleinfo{
+  margin-bottom: 10px;
+  color:grey;
+}

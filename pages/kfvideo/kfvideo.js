@@ -1,18 +1,20 @@
 // pages/kfvideo/kfvideo.js
 var utils = require("../../utils/util.js")
-
-var items = [{ title: "test", idx:0 },
-  { title: "test", idx: 1},
-  { title: "test", idx: 2 },
-  { title: "test", idx: 3 }]
+var qqVideoSearch = require("../../utils/qqVideoSearch.js")
+var qqVideo = require("../../utils/qqVideo.js")
 
 Page({
   data: {
-    vitems: items
+    tipinfo: '长按下面的视频进行播放'
   },
   onLoad:function(){
-    let h = wx.getSystemInfoSync().windowHeight;
-    this.setData({ svHeight: "height: " + (h - 300) + "px;"});
+    qqVideoSearch.init(this.videoListCallback);
+    qqVideoSearch.getVideoList();
+  },
+  videoListCallback:function(e){
+    this.setData({
+      vitems:e.videos
+    });
   },
   onShareAppMessage: function (e) {
     return {
@@ -21,7 +23,21 @@ Page({
       path: utils.sharePath
     }
   },
-  OnPlay:function(name, url){
-    console.log(name);
+  OnPlay:function(e){
+    var vid = e.currentTarget.dataset.vid;
+    var vtit = e.currentTarget.dataset.vtitle;
+    var that = this;
+    qqVideo.getVideoes(vid).then(function (response) {
+      that.setData({
+        tipinfo: "播放: " + vtit
+      });
+      wx.setStorageSync('videourl', response[0])
+      wx.navigateTo({
+        url: '../kfvideoplay/kfvideoplay',
+      })
+    });
+  },
+  OnLoadMore:function(e){
+    qqVideoSearch.getVideoList();
   }
 })

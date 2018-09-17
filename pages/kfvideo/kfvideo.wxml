@@ -1,14 +1,13 @@
-<view class="videoCls">
-  <video id="myVideo" src="{{videourl}}" binderror="videoErrorCallback" controls></video>
-</view>
-<scroll-view class="svMain" scroll-y="true" style="{{svHeight}}">
+<ad unit-id="adunit-c509bb50d2f40e85"></ad>
+<scroll-view class="svMain" scroll-y="true" style="{{svHeight}}" bindscrolltolower="OnLoadMore">
+  <text class="title" style="color:red;">{{tipinfo}}</text>
   <block wx:for="{{vitems}}" wx:key="unique">
     <template is="listItem" data="{{...item}}"/>
   </block>
 </scroll-view>
-
 <template name="listItem">
   <view class="testItem">
-    <text class="itemTxt" bindlongpress="OnPlay('{{idx+1}}. {{title}}', '{{url}}')">{{idx+1}}. {{title}}</text>
+    <text class="title" bindlongpress="OnPlay" data-vid="{{vid}}" data-vtitle="{{vtitle}}">{{vidx+1}}. {{vtitle}} </text>
+    <text class="titleinfo" bindlongpress="OnPlay" data-vid="{{vid}}" data-vtitle="{{vtitle}}">上传时间: {{vtime}}, 视频长度: {{vlen}}</text>
   </view>
 </template>

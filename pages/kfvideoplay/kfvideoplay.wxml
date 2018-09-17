@@ -1,0 +1,5 @@
+<video id="myVideo" src="{{url}}" style="width:100%;{{svHeight}}" binderror="videoErrorCallback" controls autoplay bindplay='onPlay' bindpause='onPause'>
+  <cover-view class="controls" wx:if="{{showAdv}}" >
+    <ad unit-id="adunit-aad00cc32ea03f15"></ad>
+  </cover-view>
+</video>

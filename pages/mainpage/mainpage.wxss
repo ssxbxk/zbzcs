@@ -10,7 +10,7 @@
 .titleTxt, .titleImp{
   color:cadetblue;
   text-align: center;
-  font-size: 20pt;
+  font-size: 15pt;
   vertical-align: middle;
   font-weight: bold;
 }

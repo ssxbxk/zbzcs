@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/kfvideo/kfvideo",
     "pages/mainpage/mainpage",
+    "pages/kfvideoplay/kfvideoplay",
+    "pages/kfvideo/kfvideo",
     "pages/index/index",
     "pages/zbzcs/zbzcs",
     "pages/zbzcsresult/zbzcsresult",

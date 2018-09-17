@@ -17,6 +17,11 @@ Page({
       url: '../cars/carsmain',
     })
   },
+  onKFSP:function(){
+    wx.navigateTo({
+      url: '../kfvideo/kfvideo',
+    })
+  },
   onKFZN:function(){
     wx.navigateTo({
       url: '../kfzn/kfznmain',
