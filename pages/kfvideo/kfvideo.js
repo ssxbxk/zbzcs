@@ -8,6 +8,10 @@ Page({
     tipinfo: '长按下面的视频进行播放'
   },
   onLoad:function(){
+    let h = wx.getSystemInfoSync().windowHeight;
+    this.setData({
+      svHeight: "height: " + (h-180) + "px;"
+    });
     qqVideoSearch.init(this.videoListCallback);
     qqVideoSearch.getVideoList();
   },
@@ -37,7 +41,7 @@ Page({
       })
     });
   },
-  OnLoadMore:function(e){
+  OnLoadMore:function(){
     qqVideoSearch.getVideoList();
   }
 })
