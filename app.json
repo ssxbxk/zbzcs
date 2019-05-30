@@ -18,5 +18,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "儿童自闭症测试",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
