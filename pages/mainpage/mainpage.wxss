@@ -1,6 +1,6 @@
 /* pages/mainpage/mainpage.wxss */
 .titelview{
-  margin: 10px;
+  margin: 5px;
   border-bottom: 1px solid royalblue;
   display: flex;
   flex-direction: row;
@@ -21,11 +21,12 @@
 }
 
 .contentView{
+  margin-top:10px;
   margin: 20px;
 }
 
 .mainbtn{
-  margin-top:20px;
+  margin-top:10px;
 }
 
 .txtImp{

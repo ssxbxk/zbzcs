@@ -5,6 +5,7 @@
 <view class="contentView">
   <button class="mainbtn" type="primary" bindtap="onABC">孤独症行为量表(ABC)</button>
   <button class="mainbtn" type="primary" bindtap="onCABS">克氏孤独症行为量表(CABS)</button>
+  <button class="mainbtn" type="primary" bindtap="onAdv">看看广告</button>
 </view>
 <view class="titelview">
     <view class="titleTxt">诊断量表&康复指南</view>
@@ -15,6 +16,5 @@
   <button class="mainbtn" type="primary" bindtap="onKFZN">儿童孤独症诊疗康复指南</button>
   <button class="mainbtn" type="primary" bindtap="onJYXL">学习障碍儿童的教育训练</button>
   <button class="mainbtn" type="primary" bindtap="onYSXZBB">颜色形状辨别训练</button>
-  
 </view>
 <ad unit-id="adunit-b53756690649ec6a" style="margin-top:10px"></ad>

@@ -2,8 +2,8 @@ var reg_url_h2 = /<h2 class="result_title">.+?<\/h2>/ig
 var reg_url_uploadtime = /<span class="label">时　间：<\/span>[.\r\n\t ]+?<span class="content">.+?<\/span>/ig
 var reg_url_length = /<span class="figure_info">(.+?)<\/span>/ig
 var reg_get_page = /<div class="site_head_simple" r-component="header" r-props="{session: '(.+?)';/i
-var URL_NEXT_PAGE = "https://v.qq.com/x/search/?ses={{SS}}&q=%E8%87%AA%E9%97%AD%E7%97%87%E5%BA%B7%E5%A4%8D%E8%AE%AD%E7%BB%83&stag=3&cur={{PAGE_IDX}}&cxt=tabid=0&sort=0&pubfilter=0&duration=0"
-var URL_ROOT = "https://v.qq.com/x/search/?q=%E8%87%AA%E9%97%AD%E7%97%87%E5%BA%B7%E5%A4%8D%E8%AE%AD%E7%BB%83&stag=102&smartbox_ab=";
+var URL_NEXT_PAGE = "https://v.qq.com/x/search/?ses={{SS}}&q=%E8%87%AA%E9%97%AD%E7%97%87%E5%BA%B7%E5%A4%8D%E8%AE%AD%E7%BB%83&cur={{PAGE_IDX}}&cxt=tabid=0&sort=0&pubfilter=0&duration=0&stag=4&filter=sort%3D1%26pubfilter%3D0%26duration%3D0%26tabid%3D0%26resolution%3D0"
+var URL_ROOT = "https://v.qq.com/x/search/?q=%E8%87%AA%E9%97%AD%E7%97%87%E5%BA%B7%E5%A4%8D%E8%AE%AD%E7%BB%83&stag=4&filter=sort%3D1%26pubfilter%3D0%26duration%3D0%26tabid%3D0%26resolution%3D0";
 var listVideo = { "ss": "", "videos": [] };
 var idx = 1;
 var callback = null;
@@ -53,6 +53,9 @@ function parseContent(resp) {
         videoObj.vtitle = title;
         videoObj.vtime = getUploadTime(arrUploadTime[i]);
         videoObj.vlen = getVideoLength(arrLength[i]);
+        if (isTooShort(videoObj.vlen)) {
+          continue;
+        }
         listVideo.videos.push(videoObj);
       }
     }
@@ -60,6 +63,19 @@ function parseContent(resp) {
   }
 
   listVideo.ss = reg_get_page.exec(resp)[1];
+}
+
+// 过滤掉1分钟以内的视频
+function isTooShort(time){
+  let ret = false;
+  try{
+    let arrTime = time.split(':');
+    let h = parseInt(arrTime[0], 10);
+    let m = parseInt(arrTime[1], 10);
+    if (h == 0 && m < 1)
+      ret = true;
+  }catch(e){}
+  return ret;
 }
 
 function getPageUrl(ss, idx) {
