@@ -1,7 +1,7 @@
 var reg_url_h2 = /<h2 class="result_title">.+?<\/h2>/ig
 var reg_url_uploadtime = /<span class="label">时　间：<\/span>[.\r\n\t ]+?<span class="content">.+?<\/span>/ig
 var reg_url_length = /<span class="figure_info">(.+?)<\/span>/ig
-var reg_get_page = /<div class="site_head_simple" r-component="header" r-props="{session: '(.+?)';/i
+var reg_get_page = /session: '(.+?)';/i
 var URL_NEXT_PAGE = "https://v.qq.com/x/search/?ses={{SS}}&q=%E8%87%AA%E9%97%AD%E7%97%87%E5%BA%B7%E5%A4%8D%E8%AE%AD%E7%BB%83&cur={{PAGE_IDX}}&cxt=tabid=0&sort=0&pubfilter=0&duration=0&stag=4&filter=sort%3D1%26pubfilter%3D0%26duration%3D0%26tabid%3D0%26resolution%3D0"
 var URL_ROOT = "https://v.qq.com/x/search/?q=%E8%87%AA%E9%97%AD%E7%97%87%E5%BA%B7%E5%A4%8D%E8%AE%AD%E7%BB%83&stag=4&filter=sort%3D1%26pubfilter%3D0%26duration%3D0%26tabid%3D0%26resolution%3D0";
 var listVideo = { "ss": "", "videos": [] };
