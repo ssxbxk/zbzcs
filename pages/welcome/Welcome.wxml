@@ -1,0 +1,11 @@
+<!--pages/Welcome.wxml-->
+<view class="titelview">
+    <text>小程序上线至今， 累计用户将近4万。希望这个小程序能帮助到更多的人。</text>
+</view>
+<view class="contentView" style="flex-direction:column;">
+    <view class="jztxt"><text>微信捐助作者</text><text style="margin-left:20px">支付宝捐助作者</text></view>
+    <view><image src="../../images/wx.jpg" class="jzimg"></image><image src="../../images/wx.jpg" class="jzimg" style="margin-left:20px"></image></view>
+    <view>
+    <button class="mainbtn" type="primary" bindtap="goMain">下次再说</button>
+    <button class="mainbtn" bindtap="onnotshow">不再提示，感谢捐助！</button></view>
+</view>

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/welcome/Welcome",
     "pages/mainpage/mainpage",
     "pages/kfvideoplay/kfvideoplay",
     "pages/kfvideo/kfvideo",
@@ -11,7 +12,8 @@
     "pages/cars/carsmain",
     "pages/jyxl/jyxlmain",
     "pages/kfzn/kfznmain",
-    "pages/xlxmcolors/xlxmcolors"
+    "pages/xlxmcolors/xlxmcolors",
+    "pages/Welcome"
   ],
   "window": {
     "backgroundTextStyle": "light",

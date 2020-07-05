@@ -1,0 +1,27 @@
+/* pages/Welcome.wxss */
+.titelview{
+  margin: 5px;
+  color:rgb(61, 16, 123);
+}
+
+.contentView{
+  margin-top:10px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center; 
+  display: flex;
+}
+
+.mainbtn{
+  margin-top:10px;
+}
+
+.jzimg{
+  width:100px;
+  height:100px;
+}
+
+.jztxt{
+  margin: 5px;
+  color:rgb(61, 16, 123);
+}
