@@ -7,5 +7,6 @@
     <view><image src="../../images/wx.jpg" class="jzimg"></image><image src="../../images/wx.jpg" class="jzimg" style="margin-left:20px"></image></view>
     <view>
     <button class="mainbtn" type="primary" bindtap="goMain">下次再说</button>
-    <button class="mainbtn" bindtap="onnotshow">不再提示，感谢捐助！</button></view>
+    <button class="mainbtn" bindtap="noPrompt">不再提示，感谢捐助！</button>
+    </view>
 </view>

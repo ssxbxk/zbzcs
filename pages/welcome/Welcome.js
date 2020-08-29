@@ -69,16 +69,16 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
-  },
-  onnotshow:function(){
-    try {
-      wx.setStorageSync('noshowjz', '1');
-    } catch (e) { }
   },
   goMain:function(){
     wx.navigateTo({
       url: '../mainpage/mainpage',
     })
+  },
+  noPrompt:function(){
+    try {
+      wx.setStorageSync('noshowjz', '1');
+      this.goMain();
+    } catch (e) { }
   }
 })
